@@ -1,0 +1,2 @@
+document.querySelectorAll('.card,.oath,.rule').forEach((e,i)=>{e.style.animation=`rise .55s ease ${Math.min(i*35,350)}ms both`});
+@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
